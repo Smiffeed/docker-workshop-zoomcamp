@@ -7,7 +7,7 @@ docker run -it --entrypoint=bash python:3.13.11-slim
 The version of `pip` is 25.3 by using command `pip --version`
 
 ## Question 2. Understanding Docker networking and docker-compose
-**Answer:** db:5432
+**Answer:** db:5432, postgres:5432
 
 ## Question 3. Counting short trips
 **Answer:** 8,007
@@ -65,5 +65,4 @@ order by t.tip_amount desc;
 ```
 
 ## Question 7. Terraform Workflow
-The sequences, respectively, describes the workflow for:
-    1.Generating proposed changes and auto-executing the plan
+**Answer:** terraform init, terraform apply -auto-approve, terraform destroy
